@@ -70,11 +70,13 @@ f) true (Boolean(2) takes boolean of nonzero/special string, which is true)
 15.
 == represents non-strict equality, meaning that the types can both be converted to ints if needed. By contrast, === is strict and requires types to be the same, and equal within that type, to return true. 
 
-16.
-
-
 17.
+Upon execution, modifyArray will be passed [1,2,3] as its array parameter, and doSomething as its callback parameter. newArr is created, then for each element in array (for the length of array we access each element), we pass the element to callback (doSomething) and then push that value to newArr. doSomething simply multiplies its existing value by 2, so the final return of modifyArry should be an array containing [2,4,6], or the original array with each element multiplied by 2.
 
 
-18.
-
+19.
+Output:
+1
+4
+3
+2
