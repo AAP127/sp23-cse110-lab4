@@ -14,7 +14,7 @@ expose.js
 Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/112.0
 
 6
-Github.com
+GitHub.com
 
 7
 Thu, 15 September 2022 22:44:30 GMT
